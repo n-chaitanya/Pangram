@@ -3,11 +3,9 @@ q = []
 sentence = eval(input("Enter a String"))
 sentence.lower()
 print(sentence)
-split = sentence.split()
 for i in l:
     if(i in sentence):
         q.append(i)
-print(l)
 print(q)
 if(q == l):
     print("It is a pangram")
